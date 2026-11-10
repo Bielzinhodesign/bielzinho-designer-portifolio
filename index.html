@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfólio profissional de Bielzinho Design - Designer Gráfico especializado em soluções visuais, branding e identidade visual.">
+  <title>Bielzinho Design | Portfólio Profissional</title>
+
+  <!-- Google Fonts: Inter e Playfair Display para visual moderno e editorial -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Estilo customizado -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="80" tabindex="0">
+
+  <!-- ==============================================
+       1. BARRA DE NAVEGAÇÃO (NAVBAR)
+       ============================================== -->
+  <header>
+    <nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top navbar-dark custom-navbar">
+      <div class="container">
+        <!-- Logo / Nome da Marca -->
+        <a class="navbar-brand brand-logo d-flex align-items-center gap-2" href="#inicio">
+          <img src="logo.jpeg" alt="Logo Bielzinho Design" class="navbar-logo-img">
+          <span class="logo-text">Bielzinho<span class="logo-accent">.Design</span></span>
+        </a>
+
+        <!-- Botão Mobile (Hambúrguer) -->
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+          aria-label="Alternar navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Itens do Menu -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#inicio">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre mim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicos">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeria">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-contact-btn" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ==============================================
+       2. SEÇÃO INÍCIO
+       ============================================== -->
+  <section id="inicio" class="hero-section d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <!-- Coluna de Texto e Bordão -->
+        <div class="col-12 col-lg-7 order-2 order-lg-1">
+          <div class="hero-badge mb-3 d-inline-flex align-items-center gap-2">
+            <i class="bi bi-palette-fill"></i>
+            <span>Designer Gráfico & Estrategista Visual</span>
+          </div>
+
+          <!-- Apresentação inicial -->
+          <p class="hero-intro">
+            Olá, sou Bielzinho, designer gráfico focado em transformar ideias em identidades marcantes e funcionais.
+          </p>
+
+          <!-- Bordão oficial em destaque -->
+          <h1 class="hero-catchphrase my-4">
+            “Designer não vende arte, vende <span class="highlight-word">solução visual</span>.”
+          </h1>
+
+          <!-- Botões de Ação Rápida -->
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="#galeria" class="btn btn-primary-custom">
+              Ver Projetos <i class="bi bi-arrow-down-right ms-1"></i>
+            </a>
+            <a href="#contato" class="btn btn-outline-custom">
+              Fale Comigo <i class="bi bi-chat-dots ms-1"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Coluna da Fotografia (Moldura vertical com cantos arredondados) -->
+        <div class="col-12 col-lg-5 order-1 order-lg-2 text-center">
+          <div class="frame-container vertical-frame mx-auto">
+            <div class="frame-border">
+              <!-- Fotografia Principal -->
+              <img src="fotos/foto_principal.png" alt="Bielzinho Design - Fotografia Principal"
+                class="img-fluid frame-photo vertical-photo">
+            </div>
+            <!-- Elemento decorativo de fundo -->
+            <div class="frame-glow"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================
+       3. SEÇÃO SOBRE MIM
+       ============================================== -->
+  <section id="sobre" class="about-section py-5">
+    <div class="container py-lg-4">
+      <div class="row align-items-center gy-5">
+        <!-- Coluna da Fotografia (Moldura vertical com cantos arredondados) -->
+        <div class="col-12 col-lg-5 text-center">
+          <div class="frame-container vertical-frame mx-auto">
+            <div class="frame-border">
+              <!-- Fotografia do Designer -->
+              <img src="fotos/foto_secundaria.jpg" alt="Bielzinho - Fotografia do Designer"
+                class="img-fluid frame-photo vertical-photo">
+            </div>
+            <!-- Elemento decorativo de fundo -->
+            <div class="frame-glow"></div>
+          </div>
+        </div>
+
+        <!-- Coluna de Texto "Sobre mim" -->
+        <div class="col-12 col-lg-7">
+          <div class="section-tag mb-2">
+            <i class="bi bi-fingerprint"></i> Perfil & Visão
+          </div>
+          <h2 class="section-heading mb-4">Sobre mim</h2>
+
+          <!-- Resumo fictício profissional -->
+          <div class="about-content">
+            <p class="lead-text mb-3">
+              Sou designer gráfico e tenho como objetivo transformar ideias em soluções visuais criativas e
+              profissionais.
+              Meu trabalho é desenvolver artes que unem estética, criatividade e comunicação, buscando transmitir a
+              mensagem de cada projeto de forma clara e impactante.
+            </p>
+            <p class="body-text mb-4">
+              Acredito que um bom design vai além da aparência: ele precisa comunicar, despertar interesse e criar
+              conexões. Por isso, valorizo cada detalhe, buscando entregar resultados que atendam às necessidades de
+              cada cliente.
+            </p>
+
+            <!-- Card de Destaque: Tempo de Experiência -->
+            <div class="experience-card p-3 p-md-4 rounded-4 mb-4">
+              <div class="d-flex align-items-center gap-3 gap-md-4">
+                <div class="experience-number">05+</div>
+                <div class="experience-info">
+                  <h4 class="experience-title mb-1">Anos de experiência</h4>
+                  <p class="experience-subtitle mb-0">Criando soluções em design gráfico.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pilares de atuação -->
+            <div class="row g-3 pt-2">
+              <div class="col-sm-6">
+                <div class="feature-item p-3 rounded">
+                  <i class="bi bi-vector-pen feature-icon"></i>
+                  <div>
+                    <h5 class="feature-title mb-1">Identidade Visual</h5>
+                    <p class="feature-desc mb-0">Marcas coerentes e memoráveis.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="feature-item p-3 rounded">
+                  <i class="bi bi-boxes feature-icon"></i>
+                  <div>
+                    <h5 class="feature-title mb-1">Embalagens & Mídias</h5>
+                    <p class="feature-desc mb-0">Design que se destaca na gôndola e na tela.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================
+       4. SEÇÃO SERVIÇOS
+       ============================================== -->
+  <section id="servicos" class="services-section py-5">
+    <div class="container py-lg-4">
+      <!-- Cabeçalho da Seção -->
+      <div class="text-center mb-5">
+        <div class="section-tag mb-2 justify-content-center">
+          <i class="bi bi-briefcase"></i> O QUE EU OFEREÇO
+        </div>
+        <h2 class="section-heading mb-3">Meus serviços</h2>
+        <p class="section-intro mx-auto">
+          Soluções visuais criadas para destacar marcas, negócios e ideias.
+        </p>
+      </div>
+
+      <!-- Grade 2x2 de Cards de Serviços -->
+      <div class="row g-4">
+        <!-- Card 1 – Banners e artes publicitárias -->
+        <div class="col-12 col-md-6">
+          <div class="service-card p-4 p-lg-5 h-100">
+            <div class="service-icon mb-3">
+              <i class="bi bi-layout-text-window-reverse"></i>
+            </div>
+            <h3 class="service-title mb-2">Banners e artes publicitárias</h3>
+            <p class="service-description mb-0">
+              Artes criativas para divulgação, promoções e publicidade.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 2 – Artes para redes sociais -->
+        <div class="col-12 col-md-6">
+          <div class="service-card p-4 p-lg-5 h-100">
+            <div class="service-icon mb-3">
+              <i class="bi bi-instagram"></i>
+            </div>
+            <h3 class="service-title mb-2">Artes para redes sociais</h3>
+            <p class="service-description mb-0">
+              Conteúdos visuais para fortalecer a presença digital.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 3 – Identidade visual -->
+        <div class="col-12 col-md-6">
+          <div class="service-card p-4 p-lg-5 h-100">
+            <div class="service-icon mb-3">
+              <i class="bi bi-vector-pen"></i>
+            </div>
+            <h3 class="service-title mb-2">Identidade visual</h3>
+            <p class="service-description mb-0">
+              Elementos visuais que representam a personalidade de uma marca.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 4 – Artes para eventos -->
+        <div class="col-12 col-md-6">
+          <div class="service-card p-4 p-lg-5 h-100">
+            <div class="service-icon mb-3">
+              <i class="bi bi-calendar-event"></i>
+            </div>
+            <h3 class="service-title mb-2">Artes para eventos</h3>
+            <p class="service-description mb-0">
+              Materiais gráficos para divulgação de eventos e campanhas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================
+       5. SEÇÃO GALERIA (2x2)
+       ============================================== -->
+  <section id="galeria" class="gallery-section py-5">
+    <div class="container py-lg-4">
+      <!-- Cabeçalho da Galeria -->
+      <div class="text-center mb-5">
+        <div class="section-tag mb-2 justify-content-center">
+          <i class="bi bi-grid-1x2"></i> Portfólio Selecionado
+        </div>
+        <h2 class="section-heading mb-3">Galeria de Projetos</h2>
+        <p class="section-intro mx-auto">
+          Confira uma seleção de projetos que unem estratégia, estética e posicionamento de marca.
+        </p>
+      </div>
+
+      <!-- Grid 2x2 de Cards de Projetos -->
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-12 col-md-6">
+          <div class="project-card h-100">
+            <div class="project-frame horizontal-frame">
+              <img src="fotos/Banner_de_Açaí (Açaí da Rafa).png" alt="Banner Açaí da Rafa" class="gallery-photo">
+            </div>
+            <div class="project-body p-4">
+              <div class="project-meta d-flex justify-content-between align-items-center mb-2">
+                <span class="project-category">Publicidade</span>
+                <span class="project-number">01</span>
+              </div>
+              <h3 class="project-title mb-2">Campanha Publicitária – Açaí da Rafa</h3>
+              <p class="project-description mb-0">
+                Criação de banner promocional com temática de verão, utilizando cores vibrantes, elementos visuais e
+                imagens de produtos para destacar a oferta e atrair a atenção dos clientes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-md-6">
+          <div class="project-card h-100">
+            <div class="project-frame horizontal-frame">
+              <img src="fotos/Banner_de_Pizza (Delícias da Flor).png" alt="Banner Pizza Delícias da Flor"
+                class="gallery-photo">
+            </div>
+            <div class="project-body p-4">
+              <div class="project-meta d-flex justify-content-between align-items-center mb-2">
+                <span class="project-category">Publicidade</span>
+                <span class="project-number">02</span>
+              </div>
+              <h3 class="project-title mb-2">Divulgação Promocional – Delícias da Flor</h3>
+              <p class="project-description mb-0">
+                Desenvolvimento de arte publicitária para divulgação de pizza, explorando cores, tipografia e composição
+                visual para despertar o interesse do público e promover o produto.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-md-6">
+          <div class="project-card h-100">
+            <div class="project-frame horizontal-frame">
+              <img src="fotos/Banner_Dia_das_ crianças.png" alt="Banner Dia das Crianças" class="gallery-photo">
+            </div>
+            <div class="project-body p-4">
+              <div class="project-meta d-flex justify-content-between align-items-center mb-2">
+                <span class="project-category">Eventos</span>
+                <span class="project-number">03</span>
+              </div>
+              <h3 class="project-title mb-2">Divulgação de Evento – ADSM</h3>
+              <p class="project-description mb-0">
+                Criação de banner para divulgação de evento infantil, utilizando imagens, elementos gráficos e cores
+                alegres para transmitir uma proposta visual divertida e acolhedora.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-12 col-md-6">
+          <div class="project-card h-100">
+            <div class="project-frame horizontal-frame">
+              <img src="fotos/Banner_do_ Cardápio_do_Açaí_da_Rafa.png" alt="Banner Cardápio Açaí da Rafa"
+                class="gallery-photo">
+            </div>
+            <div class="project-body p-4">
+              <div class="project-meta d-flex justify-content-between align-items-center mb-2">
+                <span class="project-category">Cardápio</span>
+                <span class="project-number">04</span>
+              </div>
+              <h3 class="project-title mb-2">Design de Cardápio – Açaí da Rafa</h3>
+              <p class="project-description mb-0">
+                Desenvolvimento de cardápio promocional com organização de produtos, tamanhos, preços e complementos,
+                priorizando a leitura das informações e a apresentação visual.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-12 col-md-6">
+          <div class="project-card h-100">
+            <div class="project-frame horizontal-frame">
+              <img src="fotos/JMJ-Construtora_Banner.png" alt="Banner JMJ Construtora" class="gallery-photo">
+            </div>
+            <div class="project-body p-4">
+              <div class="project-meta d-flex justify-content-between align-items-center mb-2">
+                <span class="project-category">Publicidade</span>
+                <span class="project-number">05</span>
+              </div>
+              <h3 class="project-title mb-2">Divulgação Comercial – JMJ Construtora</h3>
+              <p class="project-description mb-0">
+                Criação de banner comercial para divulgação de serviços de construção e reforma, utilizando uma
+                identidade visual em tons dourados e elementos relacionados ao setor da construção civil.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-12 col-md-6">
+          <div class="project-card h-100">
+            <div class="project-frame horizontal-frame">
+              <img src="fotos/TORNEIO_Banner.png" alt="Banner Torneio" class="gallery-photo">
+            </div>
+            <div class="project-body p-4">
+              <div class="project-meta d-flex justify-content-between align-items-center mb-2">
+                <span class="project-category">Eventos Esportivos</span>
+                <span class="project-number">06</span>
+              </div>
+              <h3 class="project-title mb-2">Divulgação Esportiva – Torneio de Pênaltis</h3>
+              <p class="project-description mb-0">
+                Desenvolvimento de arte para divulgação de torneio esportivo, destacando data, horário, premiações e
+                informações de inscrição por meio de uma composição visual dinâmica.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================
+       5. SEÇÃO CONTATO (RODAPÉ PROFISSIONAL)
+       ============================================== -->
+  <footer id="contato" class="contact-footer py-5">
+    <div class="container">
+      <div class="footer-cta text-center mb-5 p-4 p-md-5 rounded-4">
+        <h2 class="footer-title mb-3">Vamos criar a sua próxima solução visual?</h2>
+        <p class="footer-subtitle mx-auto mb-4">
+          Entre em contato diretamente através dos canais oficiais abaixo. Estou pronto para tirar o seu projeto do
+          papel.
+        </p>
+
+        <!-- Redes Sociais e Contatos Oficiais -->
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+          <!-- WhatsApp -->
+          <a href="https://wa.me/5598984634780?text=Ol%C3%A1!%20Tudo%20bem%3F%20Conheci%20seu%20trabalho%20pelo%20portf%C3%B3lio%20e%20tenho%20interesse%20em%20contratar%20seus%20servi%C3%A7os.%20Poderia%20me%20passar%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20servi%C3%A7os%20e%20valores%3F"
+            target="_blank" rel="noopener noreferrer" class="contact-pill-btn whatsapp-btn"
+            aria-label="Fale comigo no WhatsApp">
+            <i class="bi bi-whatsapp"></i>
+            <span>WhatsApp: (98) 98463-4780</span>
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/bielzinho.design/" target="_blank" rel="noopener noreferrer"
+            class="contact-pill-btn instagram-btn" aria-label="Acesse meu Instagram">
+            <i class="bi bi-instagram"></i>
+            <span>@bielzinho.design</span>
+          </a>
+
+          <!-- YouTube -->
+          <a href="https://www.youtube.com/@bielzinho_artes05" target="_blank" rel="noopener noreferrer"
+            class="contact-pill-btn youtube-btn" aria-label="Inscreva-se no meu canal do YouTube">
+            <i class="bi bi-youtube"></i>
+            <span>YouTube: @bielzinho_artes05</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Linha de Copyright -->
+      <div
+        class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center pt-4 border-top border-secondary border-opacity-25 gap-3">
+        <div class="brand-footer d-flex align-items-center gap-2">
+          <img src="logo.jpeg" alt="Logo Bielzinho Design" class="footer-logo-img">
+          <span>Bielzinho.Design &copy; 2026. Todos os direitos reservados.</span>
+        </div>
+        <div class="footer-tagline small">
+          Design gráfico focado em resultados e soluções visuais.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==============================================
+       MODAL / LIGHTBOX DE VISUALIZAÇÃO AMPLIADA
+       ============================================== -->
+  <div id="imageLightbox" class="lightbox-overlay" aria-hidden="true" role="dialog" aria-modal="true"
+    aria-label="Visualização ampliada da imagem">
+    <button type="button" class="lightbox-close-btn" id="lightboxCloseBtn" aria-label="Fechar visualização ampliada">
+      <i class="bi bi-x-lg"></i>
+    </button>
+    <div class="lightbox-container" id="lightboxContainer">
+      <img id="lightboxImage" src="" alt="Visualização ampliada" class="lightbox-img">
+      <div id="lightboxCaption" class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5 Bundle JS (inclui Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <!-- Script customizado para navegação suave e interatividade -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
